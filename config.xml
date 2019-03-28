@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pgb.brewapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>FLSS</name>
+	<description>
+		Fingerprint Location System
+	</description>
+	<author email="chepken@gmail.com" href="www.threepillars.co.ke">
+	  Chris Ken
+	</author>
+<icon src="images/Fingerprint-PNG.png" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+<access origin="*" />
+<allow-intent href="*" />
+<allow-navigation href="*" />
+	<preference name="phonegap-version" value="cli-8.1.1" />
+</widget>
